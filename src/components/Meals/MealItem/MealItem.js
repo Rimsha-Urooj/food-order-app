@@ -1,5 +1,6 @@
 import React from 'react';
 
+import MealItemForm from './MealItemForm';
 import classes from './MealItem.module.css';
 
 function MealItem(props) {
@@ -17,7 +18,7 @@ function MealItem(props) {
                 </div>
             </div>
             <div>
-                
+                <MealItemForm />
             </div>
         </li>
     );
