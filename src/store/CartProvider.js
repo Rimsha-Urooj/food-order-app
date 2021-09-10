@@ -21,4 +21,3 @@ function CartProvider(props) {
 }
 
 export default CartProvider
-props
